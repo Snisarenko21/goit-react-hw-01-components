@@ -1,0 +1,82 @@
+.profile {
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 20px;
+  width: 300px;
+  box-shadow: 0 0px 2px 1px #8887878e;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* .description {
+  color: #010101;
+} */
+.avatar {
+  background-color: #94d8d2;
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 50%;
+  display: inline-block;
+  box-shadow: 0 -2px 0 1px #4feafe inset;
+}
+.name {
+  margin-top: 10%;
+  font-size: 1.9em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: #63696f;
+}
+.tag {
+  font-size: 0.9em;
+  color: #63696f;
+}
+.location {
+  font-size: 0.8em;
+  margin-top: 4%;
+  color: #63696f;
+}
+.stats {
+  border-top: 1px solid #e4e9f0;
+  background-color: #f3f6f9;
+  margin-top: 10%;
+  padding: 0 1rem;
+  font-size: 0.7em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.stats > li {
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stats > li:nth-child(2) {
+  position: relative;
+}
+.stats > li:nth-child(2)::before,
+.stats > li:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #e4e9f0;
+}
+.stats > li:nth-child(2)::before {
+  left: 0;
+}
+.stats > li:nth-child(2)::after {
+  right: 0;
+}
+
+.label {
+  color: #63696f;
+}
+.quantity {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #63696f;
+}
